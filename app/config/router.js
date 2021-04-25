@@ -17,8 +17,8 @@ const Tabs = createMaterialTopTabNavigator(
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
-            <Icon name="ios-home" color={tintColor} size={22} />
-            <Text style={{ color: tintColor }}>Home</Text>
+            <Icon name="ios-camera" color={tintColor} size={28} />
+            <Text style={{ color: tintColor }} />
           </View>
         ),
       },
@@ -28,8 +28,8 @@ const Tabs = createMaterialTopTabNavigator(
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
-            <Icon name="ios-person" color={tintColor} size={22} />
-            <Text style={{ color: tintColor }}>Profile</Text>
+            {/* {<Icon name="ios-person" color={tintColor} size={22} />} */}
+            <Text style={{ color: tintColor }}>CHATS</Text>
           </View>
         ),
       },
@@ -39,8 +39,8 @@ const Tabs = createMaterialTopTabNavigator(
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
-            <Icon name="ios-settings" color={tintColor} size={22} />
-            <Text style={{ color: tintColor }}>Settings</Text>
+            {/* <Icon name="ios-settings" color={tintColor} size={22} /> */}
+            <Text style={{ color: tintColor }}>STATUS</Text>
           </View>
         ),
       },
@@ -50,8 +50,8 @@ const Tabs = createMaterialTopTabNavigator(
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
-            <Icon name="ios-search" color={tintColor} size={22} />
-            <Text style={{ color: tintColor }}>Sett</Text>
+            {/* <Icon name="ios-search" color={tintColor} size={22} /> */}
+            <Text style={{ color: tintColor }}>CALLS</Text>
           </View>
         ),
       },
@@ -64,15 +64,15 @@ const Tabs = createMaterialTopTabNavigator(
     swipeEnabled: true,
     tabBarOptions: {
       style: {
-        height: 70,
+        height: 50,
         backgroundColor: "#40404c",
         paddingBottom: 3,
-        paddingTop: 3,
+        paddingTop: 1,
       },
       indicatorStyle: {
         backgroundColor: "#fff",
         elevation: 0,
-        height: 5,
+        height: 4,
       },
       activeTintColor: "#fff",
       inactiveTintColor: "gray",
