@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {View, Text, StyleSheet} from 'react-native';
+import React, { Component } from "react";
+import { View, Text, StyleSheet } from "react-native";
 
 class Home extends Component {
   state = {};
@@ -16,9 +16,9 @@ export default Home;
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: "grey",
     flex: 1,
-    justifyContent: 'center',
-    alignContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
 });

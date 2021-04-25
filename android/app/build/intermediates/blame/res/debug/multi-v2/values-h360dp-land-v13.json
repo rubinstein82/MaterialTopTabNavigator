@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/saurabh/Desktop/Youtube/TopTabBarUI/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+            "outputFile": "C:\\Users\\anton\\OneDrive\\Dokumente\\GitHub\\MaterialTopTabNavigator\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
             "map": [
                 {
-                    "source": "/home/saurabh/.gradle/caches/transforms-2/files-2.1/4ea332c9889ab6ef05e2cc98cb757274/res/values-h360dp-land-v13/values-h360dp-land-v13.xml",
+                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-2\\files-2.1\\70d6cab9eaf3e94f11b1ce72ee474243\\res\\values-h360dp-land-v13\\values-h360dp-land-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

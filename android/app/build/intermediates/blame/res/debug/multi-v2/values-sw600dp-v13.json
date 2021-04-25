@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/saurabh/Desktop/Youtube/TopTabBarUI/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "C:\\Users\\anton\\OneDrive\\Dokumente\\GitHub\\MaterialTopTabNavigator\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw600dp-v13\\values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/saurabh/.gradle/caches/transforms-2/files-2.1/4ea332c9889ab6ef05e2cc98cb757274/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-2\\files-2.1\\92e2c3d5cbba2d5504d9fc9c23889ebd\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\anton\\.gradle\\caches\\transforms-2\\files-2.1\\70d6cab9eaf3e94f11b1ce72ee474243\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -20,16 +30,6 @@
                         "endLines": "10,11,12,13,14,15,17,18,19,20,21,25",
                         "endColumns": "59,69,70,71,57,57,10,63,55,58,62,10",
                         "endOffsets": "666,736,807,879,937,995,1104,1168,1224,1283,1346,1518"
-                    }
-                },
-                {
-                    "source": "/home/saurabh/.gradle/caches/transforms-2/files-2.1/0109b259f125add1bb2a2179bd6fcdf9/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]
