@@ -16,7 +16,7 @@ export default Camera;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "grey",
+    backgroundColor: "pink",
     flex: 1,
     justifyContent: "center",
     alignItems: "center",
