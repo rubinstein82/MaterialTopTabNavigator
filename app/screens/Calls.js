@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-class Home extends Component {
+class Calls extends Component {
   state = {};
   render() {
     return (
       <View style={styles.container}>
-        <Text>Home Page</Text>
+        <Text style={{ fontSize: 40 }}>Calls Page</Text>
       </View>
     );
   }
 }
 
-export default Home;
+export default Calls;
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "grey",
     flex: 1,
     justifyContent: "center",
+    alignContent: "center",
     alignItems: "center",
   },
 });

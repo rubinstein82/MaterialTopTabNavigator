@@ -3,17 +3,17 @@ import { createMaterialTopTabNavigator } from "react-navigation-tabs";
 import { createStackNavigator } from "react-navigation-stack";
 import Icon from "react-native-vector-icons/Ionicons";
 import MCIcons from "react-native-vector-icons/MaterialCommunityIcons";
-import Home from "../screens/Home";
-import Profile from "../screens/Profile";
-import Settings from "../screens/Settings";
-import Sett from "../screens/Settings";
+import Camera from "../screens/Camera";
+import Chats from "../screens/Chats";
+import Status from "../screens/Status";
+import Calls from "../screens/Calls";
 import React, { Component } from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 const Tabs = createMaterialTopTabNavigator(
   {
     Home: {
-      screen: Home,
+      screen: Camera,
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
@@ -24,7 +24,7 @@ const Tabs = createMaterialTopTabNavigator(
       },
     },
     Profile: {
-      screen: Profile,
+      screen: Chats,
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
@@ -35,7 +35,7 @@ const Tabs = createMaterialTopTabNavigator(
       },
     },
     Settings: {
-      screen: Settings,
+      screen: Status,
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
@@ -46,7 +46,7 @@ const Tabs = createMaterialTopTabNavigator(
       },
     },
     Sett: {
-      screen: Sett,
+      screen: Calls,
       navigationOptions: {
         tabBarLabel: ({ tintColor }) => (
           <View style={styles.iconCOntainer}>
@@ -66,8 +66,8 @@ const Tabs = createMaterialTopTabNavigator(
       style: {
         height: 50,
         backgroundColor: "#40404c",
-        paddingBottom: 3,
-        paddingTop: 1,
+        // paddingBottom: 4,
+        // paddingTop: 1,
       },
       indicatorStyle: {
         backgroundColor: "#fff",
